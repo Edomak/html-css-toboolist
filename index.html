@@ -4,13 +4,18 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <title>ToBoolist</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!-- header con logo -->
         <header id="header-logo">
+            <img id="logo" src="img/Logo.png" alt="logo">
             
+            <h1>Toboolist</h1>
+
         </header>
         <!-- /header con logo -->
 
@@ -18,16 +23,78 @@
         <div class="container">
             <!-- header con pulsanti -->
             <header id="header-button">
-
+                <button id="button1" type="button">Add Task</button>
+                <button id="button2" type="button">Add Section</button>
             </header>
             <!-- /header con pulsanti -->
             
+            <!-- Parte principale -->
             <main>
-                <section></section>
-                <section></section>
-                <section></section>
+                <section class="list">
+                    <ul>
+                        <li>
+                            <h2>&blacktriangledown; New Task</h2>
+                            <ul>
+                                <li>
+                                    <span class="check">Quarterly Newsletter</span>
+                                    <span class="blue-bg buttons">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="list">
+                    <ul>
+                        <li>
+                            <h2>&blacktriangledown; Today</h2>
+                            <ul>
+                                <li>
+                                    <span class="check">Recruiting Blog Post</span>
+                                    <span class="blue-bg buttons">Editorial</span>
+                                </li>
+                                <li>
+                                    <span class="check">Mobile App Launch</span>
+                                    <span class="purple-bg buttons">Q1 Goals</span>
+                                </li>
+                                <li>
+                                    <span class="cross">Interview John H.</span>
+                                    <span class="green-bg buttons">Recruiting</span>
+                                </li>
+                                <li>
+                                    <span class="check">Summit Update to mobile Storefronts</span>
+                                    <span class="orange-bg buttons">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="list">
+                    <ul>
+                        <li>
+                            <h2>&blacktriangledown; Upcoming</h2>
+                            <ul>
+                                <li>
+                                    <span class="cross">Schedule meeting with Alex</span>
+                                </li>
+                                <li>
+                                    <span class="check">Mobile App Launch</span>
+                                    <span class="purple-bg buttons">Q1 Goals</span>
+                                </li>
+                                <li>
+                                    <span class="cross">Interview John H.</span>
+                                    <span class="green-bg buttons">Recruiting</span>
+                                </li>
+                                <li>
+                                    <span class="check">Summit Update to mobile Storefronts</span>
+                                    <span class="orange-bg buttons">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
             </main>
             <!-- /Sezione centrale -->
         </div>
     </body>
 </html>
+            
